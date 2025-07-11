@@ -18,6 +18,7 @@ Motivated beginner frontend developer with strong interest in web technologies a
 function greet(name) {
   return `Hello, ${name}!`;
 }
+```
 
 ### Job ### 
 I was working in taxi, along time ago :)
