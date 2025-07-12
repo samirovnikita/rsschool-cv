@@ -3,9 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1>My git CV</h1>
+    <header class="header">
+        <div class="container header-container"></div>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contacts</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                <li class="nav-item"><a href="#project" class="nav-link">Project</a></li>
+                <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                <span></span>
+            </ul>
+        </nav>
+
+    </header>
+    <main class="main">
+        <div class="container container-main">
+            <section class="section section-about" id="about">
+                <img src="me.jpg" alt="that's me" class="about-photo">
+                <div class="section-about-profile">
+                    <h1 class="section-title main-title">Nikita Samirov</h1>
+                    <h3 class="section-subtitle">Trying to be junior front-end devoloper</h3>
+                </div>
+            </section>
+            <section class="section" id="contact">
+                 <h2 class="section-title">Contacts</h2>
+                    <ul>
+                        <li>Email: samirov@supersecretmail.com</li>
+                        <li>GitHub: <a href="https://github.com/samirovnikita" target="_blank">samirovnikita</a></li>
+                        <li>Discord: samirovnikita</li>
+                    </ul>
+            </section>
+            <section class="section" id="skills">
+                 <h2 class="section-title">Skills</h2>
+                    <ul>
+                        <li>HTML5, CSS3</li>
+                        <li>JavaScript (basic)</li>
+                        <li>Git, GitHub</li>
+                        <li>VS Code</li>
+                    </ul>
+            </section>
+            <section class="section" id="code">
+                 <h2 class="section-title">Code Example</h2>
+                    <pre><code>
+                    function greet(name) {
+                    return `Hello, ${name}!`;
+                    }
+                    </code></pre>
+            </section>
+            <section class="section" id="project">
+                <h2 class="section-title">Projects</h2>
+                    <ul>
+                        <li>
+                       CV - main project -
+                        <a href="https://samirovnikita.github.io/rsschool-cv/" target="_blank">
+                            GitHub Pages
+                        </a>
+                        </li>
+                    </ul>
+            </section>
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>Self-education, RS School 2025 (in processing)</p>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li>Russian — native</li>
+                    <li>English — A1 </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container container-footer">
+
+        </div>
+    </footer>
 </body>
 </html>
